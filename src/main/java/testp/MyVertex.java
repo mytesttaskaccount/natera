@@ -9,14 +9,6 @@ public class MyVertex {
         this.i = i;
     }
 
-    public int getI() {
-        return i;
-    }
-
-    public void setI(int i) {
-        this.i = i;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

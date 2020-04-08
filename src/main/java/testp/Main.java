@@ -15,7 +15,6 @@ public class Main {
             v[i] = new MyVertex(i);
         }
 
-
         IGraph g = new UndirectedGraph();
 
         for (int i = 0; i < v.length; i++) {

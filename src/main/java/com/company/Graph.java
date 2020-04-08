@@ -28,7 +28,6 @@ abstract class Graph<Vertex> implements IGraph<Vertex> {
         }
     }
 
-    // TODO: поменять на массив чтобы не потерять элемент при изменении
     Map<Vertex, Set<Edge<Vertex>>> vertices = new HashMap<>();
 
     @Override
